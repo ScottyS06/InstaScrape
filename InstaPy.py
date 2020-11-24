@@ -111,6 +111,8 @@ class InstaPy:
 
 
 def main():
+    # example function calls using InstaScraper Object
+    # fill in username and password with personal info to initialize
     instaBot = InstaPy('username', 'password')
     instaBot.login()
     instaBot.go_to_profile()
