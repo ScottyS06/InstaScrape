@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from config import webdriver_path
 
 
-class InstaPy:
+class InstaScrape:
 
     # creates an InstaPy object which can be used to retrieve info about this
     # Instagram account
@@ -113,7 +113,7 @@ class InstaPy:
 def main():
     # example function calls using InstaScraper Object
     # fill in username and password with personal info to initialize
-    instaBot = InstaPy('username', 'password')
+    instaBot = InstaScrape('username', 'password')
     instaBot.login()
     instaBot.go_to_profile()
     num = instaBot.go_to_followers_or_following(1)
